@@ -1,0 +1,11 @@
+node_modules/
+
+# Never commit real credentials. .env.example is the only tracked env file.
+.env
+.env.*
+!.env.example
+data/
+frontend/dist/
+*.log
+.DS_Store
+.tsbuildinfo
